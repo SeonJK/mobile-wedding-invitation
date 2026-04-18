@@ -5,13 +5,13 @@ import Map from './Map.tsx';
 import MapButtons from './MapButtons.tsx';
 import { Caption, PointTitle } from '@/components/Text.tsx';
 
-const Location = () => {
+const Location = ({ showMap }: { showMap: boolean }) => {
   const { mapInfo } = data;
   return (
     <LocationWrapper>
       <PointTitle>{mapInfo.address1}</PointTitle>
       <Caption textAlign={'center'}>{mapInfo.address2}</Caption>
-      <Map />
+      {showMap && <Map />}
       <MapButtons />
       <Address />
     </LocationWrapper>

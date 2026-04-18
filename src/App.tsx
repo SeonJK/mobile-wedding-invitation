@@ -12,7 +12,7 @@ import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
 
 function App() {
-  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
+  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID ?? '';
   const [isVisible, setIsVisible] = useState(false);
   const galleryRef = useRef(null);
 
@@ -56,7 +56,7 @@ function App() {
         </Wrapper>
         <Wrapper>
           <Heading1>오시는 길</Heading1>
-          <Location />
+          <Location showMap={Boolean(ncpClientId)} />
         </Wrapper>
         <Wrapper>
           <Heading1>신랑 신부에게</Heading1>
