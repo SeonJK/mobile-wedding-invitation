@@ -12,7 +12,7 @@ import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
 
 function App() {
-  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID ?? '';
+  const naverMapKeyId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID ?? '';
   const [isVisible, setIsVisible] = useState(false);
   const galleryRef = useRef(null);
 
@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <NavermapsProvider ncpClientId={ncpClientId}>
+    <NavermapsProvider ncpKeyId={naverMapKeyId}>
       <Container>
         <Wrapper>
           <Main />
@@ -56,7 +56,7 @@ function App() {
         </Wrapper>
         <Wrapper>
           <Heading1>오시는 길</Heading1>
-          <Location showMap={Boolean(ncpClientId)} />
+          <Location showMap={Boolean(naverMapKeyId)} />
         </Wrapper>
         <Wrapper>
           <Heading1>신랑 신부에게</Heading1>
