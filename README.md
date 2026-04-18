@@ -2,6 +2,13 @@
 
 ![demo1.gif](demo1.gif)
 
+## 주의!! 이 레포지토리는 포크한 레포지토리에서 수정된 레포지토리입니다.
+- NaverMaps 파라미터 수정
+- NaverMaps 핀치줌 & 드래그 허용
+- package Update (2026.04.18)
+
+
+
 이 프로젝트는 모바일 청첩장 입니다.
 
 React와 Typescript를 기반으로 개발되었으며, Vite를 사용하여 빠르고 간편한 개발 환경을 제공합니다. 
@@ -58,12 +65,11 @@ npm run dev
 
 ## 참고 자료
 
-- 개발자: [heejin-hwang](https://github.com/heejin-hwang)
+- Original Source 개발자: [heejin-hwang](https://github.com/heejin-hwang)
 - react-photoswipe-gallery 라이브러리: [react-photoswipe-gallery](https://www.npmjs.com/package/react-photoswipe-gallery)
 - react-naver-maps 공식문서: [react-naver-maps](https://zeakd.github.io/react-naver-maps/)
 - 네이버 클라우드 플랫폼: [NAVER CLOUD PLATFORM](https://console.ncloud.com/naver-service/application)
 - 카카오 디벨로퍼스: https://developers.kakao.com/
-- 토스 아이디 만들기: https://toss.me/
 
 
 이 프로젝트는 MIT 라이센스에 따라 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
