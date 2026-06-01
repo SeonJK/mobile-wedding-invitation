@@ -76,5 +76,5 @@ npm run dev
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=heejin-hwang/mobile-wedding-invitation&type=Date)](https://star-history.com/#heejin-hwang/mobile-wedding-invitation&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=seonjk%2Fmobile-wedding-invitation&type=Date)](https://api.star-history.com/svg?repos=seonjk%2Fmobile-wedding-invitation&type=Date)
 
